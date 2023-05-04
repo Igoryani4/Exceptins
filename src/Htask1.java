@@ -14,7 +14,6 @@ public class Htask1 {
     public void text_is_null(String text){
         if (text == "" || text == null){
             throw new RuntimeException("String not may be null");
-
         }
     }
 

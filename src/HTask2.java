@@ -22,8 +22,6 @@ public class HTask2 {
             res_array = new int[arr1.length];
             for (int i = 0; i < arr1.length; i++) {
                 res_array[i] = arr1[i] + arr2 [i];
-
-
             }
         }
         return res_array;
