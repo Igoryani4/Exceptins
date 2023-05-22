@@ -26,7 +26,7 @@ public class HTask3 {
                     throw new RuntimeException("Divide by zero forbidden");
 
                 }else
-                    res_array[i] = arr1[i] / arr2 [i];
+                    res_array[i] = arr1[i] / arr2[i];
 
 
             }

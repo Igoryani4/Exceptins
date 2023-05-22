@@ -21,7 +21,6 @@ public class Sem01 {
             if (array[i] == num){
                 index = i;
                 return index;
-
             }
         }
         return -2;

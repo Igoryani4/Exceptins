@@ -1,3 +1,5 @@
+import java.util.Objects;
+
 public class Htask1 {
     public static void main(String[] args) {
         //Реализуйте 3 метода, чтобы в каждом из них получить разные исключения
@@ -12,7 +14,7 @@ public class Htask1 {
     }
 
     public void text_is_null(String text){
-        if (text == "" || text == null){
+        if (Objects.equals(text, "") || text == null){
             throw new RuntimeException("String not may be null");
         }
     }

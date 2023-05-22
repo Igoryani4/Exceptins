@@ -11,7 +11,7 @@ public class Sem01_task {
             for (int i = 0; i < array.length; i++) {
                 for (int j = 0; j < array[i].length; j++) {
                     if (array[i][j] != 0 && array[i][j] != 1){
-                        throw  new RuntimeException("number in array is not 0 or 1.");
+                        throw new RuntimeException("number in array is not 0 or 1.");
                     }else {
                         sum_array += array[i][j];
                     }
